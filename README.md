@@ -63,23 +63,7 @@ Run the notebooks in order:
 2. **02_train_sklearn.ipynb**: Train classical ML models
 3. **03_train_pytorch.ipynb**: Train Deep Learning models
 4. **04_models_comparison.ipynb**: Compare all approaches
-
-## 📊 Results
-
-### Classical ML Models
-
-| Model | Approach | Macro F1-score |
-|-------|----------|----------------|
-| Linear SVM | class_weight | 0.7671 |
-| Logistic Regression | class_weight | 0.7543 |
-| Linear SVM | SMOTE | 0.7489 |
-
-### Deep Learning
-
-| Model | Macro F1-score |
-|-------|----------------|
-| MeanPool MLP | 0.7234 |
-
+   
 ## 🛠️ Technologies
 
 - **Data Processing**: pandas, numpy
