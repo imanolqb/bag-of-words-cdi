@@ -626,13 +626,11 @@
 	
 	\section{Conclusiones}
 	
-	En este trabajo, el modelo conexionista basado en embeddings, mean pooling y una MLP ofrece un rendimiento global sólido, alcanzando un mejor accuracy de test de 0.7705 y un macro F1 cercano a 0.744, lo que sugiere que captura señales útiles del texto pese al desequilibrio entre revistas.
+	El sistema consigue una recomendación automática consistente de revista a partir de título, resumen y palabras clave, con rendimientos competitivos pese al fuerte desbalance entre clases. En términos globales, el enfoque clásico basado en TF-IDF y SVM ofrece el mejor compromiso entre rendimiento, estabilidad y facilidad de despliegue, mientras que el enfoque conexionista con embeddings y mean pooling se mantiene como una línea base neuronal correcta pero sin superar al clásico en F1 macro.
 	
-	La estrategia de balanceo mediante pesos de clase no aporta una mejora global en macro F1, ya que prácticamente se mantiene, y, además, reduce ligeramente la exactitud general (de 0.7705 a 0.7570), por lo que no se justifica como elección final si el objetivo principal es maximizar el rendimiento agregado. No obstante, el análisis por clase muestra que el balanceo puede modificar el reparto de errores y la sensibilidad a clases minoritarias, por lo que su uso debería depender de si se prioriza el equilibrio entre clases frente a la accuracy global.
+	En el análisis multiclase, las mayores dificultades se concentran en la revista 2, que presenta confusiones recurrentes con las revistas 3 y 5, lo que sugiere un solapamiento temático real que no se resuelve únicamente con una representación basada en palabras o con una arquitectura neuronal simple. Además, el balanceo en el modelo neuronal mediante pesos de clase no aporta mejora global en macro F1 y reduce la accuracy, por lo que se justifica mantener la variante sin balanceo como resultado final dentro del enfoque conexionista.
 	
-	Finalmente, la matriz de confusión evidencia confusiones sistemáticas entre algunas revistas, especialmente entre Journal 5 y Journal 3, y también entre Journal 2 con Journal 3 y Journal 5, lo que indica solapamiento semántico. 
-	
-	Como líneas de mejora, conviene explorar tokenización y normalización más robustas, arquitecturas con mejor modelado, por ejemplo, modelos basados en transformadores, y estrategias específicas para reducir las confusiones dominantes.
+	Como trabajo futuro, la vía más prometedora para mejorar la separabilidad entre revistas cercanas es incorporar representaciones más contextuales y expresivas (por ejemplo, modelos tipo Transformer) y enriquecer el texto de entrada o el preprocesado, manteniendo siempre un protocolo de evaluación reproducible centrado en F1 macro y análisis de errores. En conjunto, la principal aportación es demostrar que una línea base clásica bien ajustada sigue siendo altamente competitiva en clasificación de texto científico, y que las mejoras sustanciales probablemente vendrán de capturar semántica contextual más allá de la bolsa de palabras.
 	
 	\newpage
 	

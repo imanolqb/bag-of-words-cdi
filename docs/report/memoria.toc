@@ -1,0 +1,41 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Contexto y motivación}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objetivo del sistema}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Contribuciones}{4}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Datos}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Fuente y criterios de recopilación}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Estructura del conjunto de datos}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Preprocesado y limpieza}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Organización y generación del dataset}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Análisis descriptivo}{7}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Metodología}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Planteamiento como problema de clasificación}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Metodología de proyecto (CRISP-DM)}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Estructura del proyecto y reproducibilidad (TDSP)}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Protocolo de evaluación}{10}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Métricas de evaluación}{10}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Accuracy}{10}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Precision, recall y F1-score}{10}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Promedios macro y ponderado}{10}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}Matriz de confusión}{10}{subsubsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.6}Aproximación clásica (Scikit-learn)}{11}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Representación del texto: TF-IDF}{11}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Modelos evaluados}{11}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Selección del mejor modelo}{11}{subsubsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.7}Aproximación conexionista (PyTorch)}{12}{subsection.3.7}%
+\contentsline {subsubsection}{\numberline {3.7.1}Tokenización y vocabulario}{12}{subsubsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.2}Arquitectura del modelo}{12}{subsubsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.3}Entrenamiento}{12}{subsubsection.3.7.3}%
+\contentsline {section}{\numberline {4}Diseño experimental}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Particiones de datos}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Hiperparámetros}{14}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Resultados}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Resultados de la aproximación clásica (SKLearn)}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Resultados de la aproximación conexionista (PyTorch)}{19}{subsection.5.2}%
+\contentsline {paragraph}{Modelo base (sin balanceo).}{19}{section*.13}%
+\contentsline {paragraph}{Modelo con balanceo de clases.}{19}{section*.14}%
+\contentsline {paragraph}{Selección del modelo final.}{19}{section*.15}%
+\contentsline {subsection}{\numberline {5.3}Comparación entre enfoques}{23}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Análisis de errores}{23}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Conclusiones}{24}{section.6}%
