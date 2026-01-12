@@ -37,12 +37,12 @@ env/
 *.code-workspace
 
 # Machine Learning
-*.pt
-*.pth
-*.h5
-*.pkl
-*.joblib
-*.model
+# *.pt
+# *.pth
+# *.h5
+# *.pkl
+# *.joblib
+# *.model
 
 # Data (opcional - descomenta si no quieres subir los datos)
 # data/raw/
@@ -64,13 +64,13 @@ env/
 Thumbs.db
 desktop.ini
 
-# Large files
-*.csv
-*.json
+# Large files (comentados para permitir subir con Git LFS)
+# *.csv
+# *.json
 
-# Models (muy grandes)
-models/
+# Models (comentado para permitir subir con Git LFS)
+# models/
 
-# Outputs
-docs/pytorch/errors.csv
-docs/sklearn/errors_best_model.csv
+# Outputs (comentados para permitir subir)
+# docs/pytorch/errors.csv
+# docs/sklearn/errors_best_model.csv
